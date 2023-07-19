@@ -29,8 +29,8 @@ ul {
 
 .navigation-container {
   display: flex;
-  margin-top: 50px;
-  margin-left: 110px;
+  padding-top: 50px;
+  padding-left: 110px;
 }
 
 .header-text {
@@ -294,10 +294,12 @@ ul {
 }
 
 .descs {
+  margin: 0 auto;
   margin-top: 790px;
 }
 
 .descs-title {
+  margin: 0 auto;
   color: #000;
   text-align: justify;
   font-family: Inter;
@@ -305,7 +307,6 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 0 auto;
   margin-left: 650px;
 
 }
