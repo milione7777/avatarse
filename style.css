@@ -3,7 +3,7 @@ body {
   font-family: 'Inter', sans-serif;  
 }
 
-.header-container {
+.header {
   background-image: linear-gradient(rgba(43, 74, 97, 0.87), #2b4a61de),
     url(img/header.jpg);
   display: flex;
@@ -69,11 +69,11 @@ ul {
   margin-top: 65px;
 }
 
-.Switchers {
+.Switchers-container {
   margin-left: 49px;
 }
 
-.container {
+.content {
   background-image: url(img/img-avatar.png);
   width: 1440px;
   height: 740px;
@@ -93,7 +93,7 @@ ul {
   margin-left: 50px;
 }
 
-.fon-all {
+.fon-container {
   margin-top: 180px;
   margin-left: 204px;
 }
@@ -123,7 +123,7 @@ ul {
   margin-top: 25px;
 }
 
-.networks {
+.networks-container {
   margin-top: -19.7%;
   position: inherit;
 }
@@ -138,7 +138,7 @@ ul {
   margin: 0 auto;
 }
 
-.container-content {
+.content-title {
   margin-top: 965px;
   text-align: center;
 }
@@ -229,7 +229,7 @@ ul {
   margin-left: 470px;
 }
 
-.card-container {
+.card {
   background-image: url(img/sky.jpg);
   width: 1440px;
   height: 704px;
@@ -253,7 +253,7 @@ ul {
   text-align: center;
 }
 
-.aside-all {
+.aside-container {
   display: flex;
   flex-wrap: wrap;
 }
@@ -317,7 +317,7 @@ ul {
   margin-left: 475px;
 }
 
-.footer-container {
+.footer {
   background-image: linear-gradient(rgba(43, 74, 97, 0.87), #2b4a61de),
     url(img/footer-avatar.jpg);
   display: flex;
@@ -355,7 +355,7 @@ ol {
   list-style-type: none;
 }
 
-.footer-text-all {
+.footer-text-container {
   margin-top: 65px;
   margin-left: 40px;
 }
