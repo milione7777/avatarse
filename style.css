@@ -1,6 +1,6 @@
 body {
-  font-family: 'Headland One', serif;
-  font-family: 'Inter', sans-serif;  
+  font-family: "Headland One", serif;
+  font-family: "Inter", sans-serif;
 }
 
 .header {
@@ -25,9 +25,10 @@ body {
 
 ul {
   list-style-type: none;
+  display: flex;
 }
 
-.navigation-container {
+.navigation {
   display: flex;
   padding-top: 50px;
   padding-left: 110px;
@@ -42,6 +43,7 @@ ul {
   font-weight: 300;
   line-height: normal;
   text-decoration: none;
+  margin-left: 38px;
 }
 
 .header-text:hover {
@@ -93,7 +95,7 @@ ul {
   margin-left: 50px;
 }
 
-.fon-container {
+.fon {
   margin-top: 180px;
   margin-left: 204px;
 }
@@ -123,7 +125,7 @@ ul {
   margin-top: 25px;
 }
 
-.networks-container {
+.networks {
   margin-top: -19.7%;
   position: inherit;
 }
@@ -148,7 +150,6 @@ ul {
   text-align: center;
   margin: 0 auto;
   margin-left: 25px;
-
 }
 
 .texts2 {
@@ -226,7 +227,6 @@ ul {
 
 .images {
   margin-top: 8px;
-  margin-left: 470px;
 }
 
 .card {
@@ -309,7 +309,6 @@ ul {
   font-weight: 400;
   line-height: normal;
   margin-left: 650px;
-
 }
 
 .bird-img {
@@ -344,11 +343,15 @@ ul {
   margin-top: 35px;
 }
 
-.footer-text {
+.footer-texts {
   color: #fff;
   text-align: justify;
   font-size: 20px;
-  margin-top: 15px;
+}
+
+.footer-text {
+  margin-top: 60px;
+  margin-left: 40px;
 }
 
 ol {
@@ -365,8 +368,4 @@ ol {
   text-align: justify;
   font-size: 14px;
   margin-left: 165px;
-}
-
-.footer-text-bootoms {
-  margin-top: 32px;
 }
