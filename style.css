@@ -10,10 +10,8 @@ body {
   background-repeat: no-repeat;
   width: 1440px;
   height: 150px;
-  position: absolute;
-  left: 0;
-  top: 0;
   border-bottom: 3px solid #fff;
+  margin: 0 auto;
 }
 
 .img {
@@ -79,10 +77,8 @@ ul {
   background-image: url(img/img-avatar.png);
   width: 1440px;
   height: 740px;
-  margin-top: 151px;
-  position: absolute;
-  left: 0;
-  top: 0px;
+
+  margin: 0 auto;
 }
 
 .fon-text {
@@ -98,6 +94,9 @@ ul {
 .fon {
   margin-top: 180px;
   margin-left: 204px;
+  margin: 0 auto;
+  margin-left: 204px;
+
 }
 
 .borders {
@@ -141,7 +140,7 @@ ul {
 }
 
 .content-title {
-  margin-top: 965px;
+
   text-align: center;
 }
 
@@ -166,9 +165,8 @@ ul {
   width: 1440px;
   height: 741px;
   background-repeat: no-repeat;
-  position: absolute;
-  left: 0;
   margin-top: 10px;
+  margin: 0 auto;
 }
 
 .avatars {
@@ -203,7 +201,7 @@ ul {
 }
 
 .contents {
-  margin-top: 826px;
+  
   text-align: center;
 }
 
@@ -233,8 +231,7 @@ ul {
   background-image: url(img/sky.jpg);
   width: 1440px;
   height: 704px;
-  position: absolute;
-  left: 0;
+  margin: 0 auto;
 }
 
 .aside-text {
@@ -283,7 +280,6 @@ ul {
 }
 
 .desc {
-  margin: 0 auto;
   color: #141414;
   text-align: justify;
   font-family: Inter;
@@ -292,15 +288,19 @@ ul {
   font-weight: 400;
   line-height: normal;
   text-align: center;
+  margin: 0 auto;
 }
 
 .descs {
   margin: 0 auto;
-  margin-top: 790px;
+
+}
+
+.desc-container {
+  margin: 0 auto;
 }
 
 .descs-title {
-  margin: 0 auto;
   color: #000;
   text-align: justify;
   font-family: Inter;
@@ -309,11 +309,16 @@ ul {
   font-weight: 400;
   line-height: normal;
   margin-left: 650px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .bird-img {
   margin: 0 auto;
-  margin-left: 475px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .footer {
@@ -323,8 +328,7 @@ ul {
   background-repeat: no-repeat;
   width: 1440px;
   height: 223px;
-  position: absolute;
-  left: 0;
+margin: 0 auto;
   border-bottom: 3px solid #fff;
 }
 
